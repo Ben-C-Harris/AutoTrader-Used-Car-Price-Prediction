@@ -18,7 +18,9 @@ I've created a database of used cars that have been web scraped from https://www
 ```
 
 # Model performance
-Regression models have then been fit for each individual make and model of car including: Lasso, Random Forest, and Linear models with 10 KFolds validation. As it is a non-linear problem, the linear regression model was shown to be the worst performing. The Random Forest regression model was found to be the best performing overall, delivering an **R<sup>2</sup> value of over 84 for over 60,000 different cars**, as shown below:
+Multiple Regression models have then been fit for each individual make and model of car including: Lasso, Random Forest, and Linear models with 10 KFolds validation. Model inputs have been: Year, Miles, BHP, and L with a predictor output of Price.
+
+This is a non-linear problem, as such the linear regression model was shown to be the worst performing. The Random Forest regression model was found to be the best performing overall, delivering an **R<sup>2</sup> value of over 84 for over 60,000 different cars**, as shown below. Models with poor performance are generally in instances where model specification can wildly change the selling price of the vehicle. This attribute is not yet modelled.
 
 ```
 — — — — — — — — — — — — — — — — — — — — — — — 
