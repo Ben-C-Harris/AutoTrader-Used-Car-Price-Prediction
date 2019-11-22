@@ -55,6 +55,7 @@ Below shows some of the better performing models and how their model prediction 
      
 # How to run
 The model is simple to run and is commented to help share what is actually going on. Ensure you have the above packages installed in your environment and download/clone:
+
       ```
       carPricePredictRegression.py
       fullDataSet.pkl (Must be within dataSet dir as in GitHub folder layout)
@@ -63,8 +64,6 @@ The model is simple to run and is commented to help share what is actually going
 The python file contains quite a few user set parameters, as explained below:
 
       LOAD_DATAFILE - The data file you wish to load from subdir dataSet
-
-      # Would you like plots, if you do, choose the minimum R2 required for plotting
       PLOT - Would you like plots of regression predictions per model and overal histogram of R2 values
       PLOT_R2_THRESHOLD - R2 Value must be higher than this number to have regression model plot created. Note R2 histogram remains unchanged and will still include all R2 values
       MODELS - List of the three models you can choose from to see how results change
