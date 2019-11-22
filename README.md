@@ -17,7 +17,7 @@ I've created a database of used cars that have been web scraped from https://www
 14909 Dacia         Sandero Stepway Dacia Sandero Stepway 0.9 Ambiance 5dr                              5995.0  2014.0 27000.0  90.0  0.9 Manual    Petrol 
 ```
 
-
+# Model performance
 Regression models have then been fit for each individual make and model of car including: Lasso, Random Forest, and Linear models with 10 KFolds validation. As it is a non-linear problem, the linear regression model was shown to be the worst performing. The Random Forest regression model was found to be the best performing overall, delivering an R<sup>2</sup> value of over 84 for over 60,000 different cars, as shown below:
 
 ```
