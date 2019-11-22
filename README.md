@@ -44,5 +44,15 @@ Below shows some of the better performing models and how their model prediction 
 
 <p align="center"><img src="plots/Volvo_XC90_Plot.png" /></p>
 
-
+# Dependencies
+      os
+      sys
+      warnings
+      pandas
+      seaborn
+      matplotlib.pyplot
+      sklearn
+     
+# How to run
+...
 
