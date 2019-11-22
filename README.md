@@ -1,7 +1,7 @@
-# autoTraderCarPricePrediction
-Machine Learning on large cars database webscraped from AutoTrader
+# Automated Used Car Price Predictions From https://www.autotrader.co.uk/
+Machine Learning on large used cars database webscraped from AutoTrader
 
-I've created a database of used cars that have been web scraped from https://www.autotrader.co.uk/ which includes 67,249 different cars. The data set is shared within this Repo, however I will later be adding a new Repo showing how I created the data set through reliable web scraping. A selection of ten rows of the dataset is as shown below:
+I've created a database of used cars that have been web scraped from https://www.autotrader.co.uk/ which **includes 67,249 different cars**. The data set is shared within this Repo, however I will later be adding a new Repo showing how I created the data set through reliable web scraping. A selection of ten rows of the dataset is as shown below:
 
 ```
       Make          Model           Name                                                                Price   Year   Miles    BHP   L   Trans     Fuel   
@@ -18,7 +18,7 @@ I've created a database of used cars that have been web scraped from https://www
 ```
 
 # Model performance
-Regression models have then been fit for each individual make and model of car including: Lasso, Random Forest, and Linear models with 10 KFolds validation. As it is a non-linear problem, the linear regression model was shown to be the worst performing. The Random Forest regression model was found to be the best performing overall, delivering an R<sup>2</sup> value of over 84 for over 60,000 different cars, as shown below:
+Regression models have then been fit for each individual make and model of car including: Lasso, Random Forest, and Linear models with 10 KFolds validation. As it is a non-linear problem, the linear regression model was shown to be the worst performing. The Random Forest regression model was found to be the best performing overall, delivering an **R<sup>2</sup> value of over 84 for over 60,000 different cars**, as shown below:
 
 ```
 — — — — — — — — — — — — — — — — — — — — — — — 
