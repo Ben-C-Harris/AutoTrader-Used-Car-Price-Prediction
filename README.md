@@ -3,7 +3,7 @@ Machine Learning on large cars database webscraped from AutoTrader
 
 ```
 — — — — — — — — — — — — — — — — — — — — — — — 
-Total Average R2 value over 488 Specific Models of car containing 61420 seperate vehicles in total with 10 KFolds each is: 84.37254417331319
+Total Average R2 value of: 84.37 over 488 Specific Models of car containing 61420 seperate vehicles in total with 10 KFolds each
 — — — — — — — — — — — — — — — — — — — — — — — 
 ```
 
