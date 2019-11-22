@@ -26,12 +26,12 @@ Total Average R2 value of: 84.37 over 488 Specific Models of car containing 6142
 — — — — — — — — — — — — — — — — — — — — — — — 
 ```
 
-
+# R<sup>2</sup> distribution of models created
 The distribution of R<sup>2</sup> for the models generated can be seen below:
 
 <p align="center"><img src="plots/r2HistPricePrediction.png" /></p>
 
-
+# Model Fit Examples
 Below shows some of the better performing models and how their model prediction compares to the test data:
 
 <p align="center"><img src="plots/Audi_A8_Plot.png" /></p>
