@@ -1,12 +1,7 @@
 # autoTraderCarPricePrediction
 Machine Learning on large cars database webscraped from AutoTrader
 
-```
-— — — — — — — — — — — — — — — — — — — — — — — 
-Total Average R2 value of: 84.37 over 488 Specific Models of car containing 61420 seperate vehicles in total with 10 KFolds each
-— — — — — — — — — — — — — — — — — — — — — — — 
-```
-
+I've created a database of used cars that have been web scrapped from https://www.autotrader.co.uk/ which includes 67,249 different cars. A selection of ten is shown below:
 
 ```
       Make          Model           Name                                                                Price   Year   Miles    BHP   L   Trans     Fuel   
@@ -21,6 +16,15 @@ Total Average R2 value of: 84.37 over 488 Specific Models of car containing 6142
 35065 Mercedes-Benz A Class         Mercedes-Benz A Class A180 CDI Sport Edition 5dr - SAT NAV - …      12318.0 2015.0 45056.0  109.0 1.5 Manual    Diesel 
 14909 Dacia         Sandero Stepway Dacia Sandero Stepway 0.9 Ambiance 5dr                              5995.0  2014.0 27000.0  90.0  0.9 Manual    Petrol 
 ```
+
+Regression models have then been fit for each individual make and model of car including: Lasso, Random Forest, and Linear models with 10 KFolds validation. The Random Forest regression model was found to be the best performing, delivering an R squared value of over 84 for over 60,000 different cars, as shown below:
+
+```
+— — — — — — — — — — — — — — — — — — — — — — — 
+Total Average R2 value of: 84.37 over 488 Specific Models of car containing 61420 seperate vehicles in total with 10 KFolds each
+— — — — — — — — — — — — — — — — — — — — — — — 
+```
+
 
 
 <p align="center"><img src="plots/r2HistPricePrediction.png" /></p>
