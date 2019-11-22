@@ -1,7 +1,7 @@
 # autoTraderCarPricePrediction
 Machine Learning on large cars database webscraped from AutoTrader
 
-I've created a database of used cars that have been web scrapped from https://www.autotrader.co.uk/ which includes 67,249 different cars. A selection of ten is shown below:
+I've created a database of used cars that have been web scraped from https://www.autotrader.co.uk/ which includes 67,249 different cars. The data set is shared within this Repo, however I will later be adding a new Repo showing how I created the data set through reliable web scraping. A selection of ten rows of the dataset is as shown below:
 
 ```
       Make          Model           Name                                                                Price   Year   Miles    BHP   L   Trans     Fuel   
@@ -17,7 +17,7 @@ I've created a database of used cars that have been web scrapped from https://ww
 14909 Dacia         Sandero Stepway Dacia Sandero Stepway 0.9 Ambiance 5dr                              5995.0  2014.0 27000.0  90.0  0.9 Manual    Petrol 
 ```
 
-Regression models have then been fit for each individual make and model of car including: Lasso, Random Forest, and Linear models with 10 KFolds validation. The Random Forest regression model was found to be the best performing, delivering an R squared value of over 84 for over 60,000 different cars, as shown below:
+Regression models have then been fit for each individual make and model of car including: Lasso, Random Forest, and Linear models with 10 KFolds validation. As it is a non-linear problem, the linear regression model was shown to be the worst performing. The Random Forest regression model was found to be the best performing overall, delivering an R<sup>2</sup> value of over 84 for over 60,000 different cars, as shown below:
 
 ```
 — — — — — — — — — — — — — — — — — — — — — — — 
@@ -25,9 +25,11 @@ Total Average R2 value of: 84.37 over 488 Specific Models of car containing 6142
 — — — — — — — — — — — — — — — — — — — — — — — 
 ```
 
-
+The distribution of R<sup>2</sup> for the models generated can be seen below:
 
 <p align="center"><img src="plots/r2HistPricePrediction.png" /></p>
+
+Below shows...
 
 <p align="center"><img src="plots/Audi_A8_Plot.png" /></p>
 
