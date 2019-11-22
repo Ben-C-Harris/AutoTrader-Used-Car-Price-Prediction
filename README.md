@@ -5,7 +5,7 @@ Machine Learning on large cars database webscraped from AutoTrader
 
 
 
-
+<p align="center"><img src="r2HistPricePrediction.png" /></p>
 
 <p align="center"><img src="plots/Audi_A8_Plot.png" /></p>
 
