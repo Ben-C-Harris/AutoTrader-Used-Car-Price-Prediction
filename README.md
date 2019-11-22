@@ -21,7 +21,7 @@ Regression models have then been fit for each individual make and model of car i
 
 ```
 — — — — — — — — — — — — — — — — — — — — — — — 
-Total Average R<sup>2</sup> value of: 84.37 over 488 Specific Models of car containing 61420 seperate vehicles in total with 10 KFolds each
+Total Average R2 value of: 84.37 over 488 Specific Models of car containing 61420 seperate vehicles in total with 10 KFolds each
 — — — — — — — — — — — — — — — — — — — — — — — 
 ```
 
