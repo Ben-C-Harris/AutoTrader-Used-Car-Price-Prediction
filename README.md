@@ -54,5 +54,8 @@ Below shows some of the better performing models and how their model prediction 
       sklearn
      
 # How to run
-...
+The model is simple to run and is commented to help share what is actually going on. Ensure you have the above packages installed in your environment and download/clone:
+      ```
+      carPricePredictRegression.py
+      fullDataSet.pkl (Must be within dataSet dir as in GitHub folder layout)
 
