@@ -74,6 +74,8 @@ The python file contains quite a few user set parameters, as explained below:
       MINIMUM_NUMBER_OF_CARS_FOR_ANALYSIS - Minimum number of cars of type modelX required if regression is to be completed. This will stop you fitting to rare car models with only several examples for sale.
       DISABLE_SKLEARN_WARNING - SKLearn currently throws a warning over a future deprecated method, due to number of calls this fills the console at run time. Disable when you are happy that this is not an issue for you or your environment.
       PRINT_TO_CONSOLE - Would you like to write to .txt instead of console. Useful if your console doesnt remember all print statements.
+      
+Finally, run carPricePredictRegression.py and you're done. Any outputs requested will be generated within their appropriate directory.
 
 
 
