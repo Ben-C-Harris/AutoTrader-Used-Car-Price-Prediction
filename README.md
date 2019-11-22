@@ -30,7 +30,7 @@ The distribution of R<sup>2</sup> for the models generated can be seen below:
 <p align="center"><img src="plots/r2HistPricePrediction.png" /></p>
 
 
-Below shows some of the better performing models and how their model prediction compares to the test data.
+Below shows some of the better performing models and how their model prediction compares to the test data:
 
 <p align="center"><img src="plots/Audi_A8_Plot.png" /></p>
 
