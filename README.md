@@ -26,7 +26,7 @@ Total Average R2 value over 488 Specific Models of car containing 61420 seperate
 
 
 
-<p align="center"><img src="r2HistPricePrediction.png" /></p>
+<p align="center"><img src="plots/r2HistPricePrediction.png" /></p>
 
 <p align="center"><img src="plots/Audi_A8_Plot.png" /></p>
 
