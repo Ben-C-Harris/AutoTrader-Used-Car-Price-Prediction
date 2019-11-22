@@ -58,4 +58,31 @@ The model is simple to run and is commented to help share what is actually going
       ```
       carPricePredictRegression.py
       fullDataSet.pkl (Must be within dataSet dir as in GitHub folder layout)
+      ```
+
+The python file contains quite a few user set parameters, as explained below:
+
+      LOAD_DATAFILE - The data file you wish to load from subdir dataSet
+
+      # Would you like plots, if you do, choose the minimum R2 required for plotting
+      PLOT - Would you like plots of regression predictions per model and overal histogram of R2 values
+      PLOT_R2_THRESHOLD - R2 Value must be higher than this number to have regression model plot created. Note R2 histogram remains unchanged and will still include all R2 values
+      MODELS - List of the three models you can choose from to see how results change
+      MODEL_TYPE - Choose the model type as above using this number. i.e. 1 delivers Forest
+      CROSS_FOLD_NUM - Number of KFold validation you wish to perform
+      MINIMUM_NUMBER_OF_MODELS_COMPLETE - The minimum of car models to be evaluated before class terminates. This is good for debugging and simple testing.
+      MINIMUM_NUMBER_OF_CARS_FOR_ANALYSIS - Minimum number of cars of type modelX required if regression is to be completed. This will stop you fitting to rare car models with only several examples for sale.
+      DISABLE_SKLEARN_WARNING - SKLearn currently throws a warning over a future deprecated method, due to number of calls this fills the console at run time. Disable when you are happy that this is not an issue for you or your environment.
+      PRINT_TO_CONSOLE - Would you like to write to .txt instead of console. Useful if your console doesnt remember all print statements.
+
+
+
+
+
+
+
+
+
+
+
 
